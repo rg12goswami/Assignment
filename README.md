@@ -47,7 +47,7 @@ See `backend/schema.sql`. Three tables: `boards` → `columns` → `tasks`, each
 - Support for multiple boards with a board-switcher.
 
 ## Time spent
-~2 hours
+~4 hours
 
 ## Something I learned
 Working with `better-sqlite3`'s synchronous API was a nice change from the usual async/await ceremony around database calls — it made the route handlers noticeably easier to read and reason about, especially for something small and time-boxed like this.
