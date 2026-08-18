@@ -13,14 +13,13 @@ A simple task board (Trello-style) built as a take-home assignment. React + Vite
 cd backend
 npm install
 node server.js
-Runs on `http://localhost:4000`. On first run it creates `taskflow.db` and seeds it with a demo board, 3 columns, and 5 tasks.
+ On first run it creates `taskflow.db` and seeds it with a demo board, 3 columns, and 5 tasks.
 
 ### 2. Frontend
 Open a second terminal:
 cd frontend
 npm install
 npm run dev
-Runs on `http://localhost:5173`. The Vite dev server proxies `/api` requests to the backend on port 4000.
 
 ### 3. Run backend tests
 cd backend
